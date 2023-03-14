@@ -1,0 +1,7 @@
+<form action="{% url 'add_order' %}" method="POST" class="pt-5">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <p class="pt-3">
+        <input type="submit" value="Оформить заказ" class="btn aqua mb-3">
+    </p>
+</form>

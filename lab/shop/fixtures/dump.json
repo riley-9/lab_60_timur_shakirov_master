@@ -1,0 +1,896 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Продукт",
+    "content_type": 7,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Продукт",
+    "content_type": 7,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Продукт",
+    "content_type": 7,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Продукт",
+    "content_type": 7,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Корзина",
+    "content_type": 8,
+    "codename": "add_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Корзина",
+    "content_type": 8,
+    "codename": "change_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Корзина",
+    "content_type": 8,
+    "codename": "delete_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Корзина",
+    "content_type": 8,
+    "codename": "view_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add order",
+    "content_type": 9,
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change order",
+    "content_type": 9,
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete order",
+    "content_type": 9,
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view order",
+    "content_type": 9,
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add order product amount",
+    "content_type": 10,
+    "codename": "add_orderproductamount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change order product amount",
+    "content_type": 10,
+    "codename": "change_orderproductamount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete order product amount",
+    "content_type": 10,
+    "codename": "delete_orderproductamount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view order product amount",
+    "content_type": 10,
+    "codename": "view_orderproductamount"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$EHM0XhvspdcNCUuNUPVVkO$Hv1h1DNMquqMo36qY0LKP4+rOU6RKia+N1Zwaem2KSE=",
+    "last_login": "2022-10-16T06:45:15.139Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-10-03T13:55:37.291Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "shop",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "shop",
+    "model": "cart"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "shop",
+    "model": "order"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "shop",
+    "model": "orderproductamount"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vtvy5l3g1zxsgxex7rv5hlz74083w2pk",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pChFAou3XsGMjOAVA0kpV0Z765NutDtf-_9lwi4rSVsPS1hjuIslDj9boT8SHUH8Y711iS3ui4zyV2RB-3y2mJ6Xg7376BgL9968g6BkAYNySgzkUEPHg05YoBRZ9bJkiHgrMY4aJu9chijZ0uatRLvD-OOOBk:1ojxOd:ZlEQIRNG7OW2mJd6on5OrOFku7ccztltaF4nn2LgkYc",
+    "expire_date": "2022-10-30T06:45:15.145Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 2,
+  "fields": {
+    "product": "Iphone",
+    "description": "Качественный мобильный телефон",
+    "photo": "https://media-cdn.bnn.in.th/11963/Apple-iPhone-11-64GB-Green-1.jpg",
+    "category": "mobile_phones",
+    "rest": 7,
+    "price": "450.00",
+    "created_at": "2022-10-02T20:16:57.251Z",
+    "changed_at": "2022-10-02T20:16:57.251Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 3,
+  "fields": {
+    "product": "Диван",
+    "description": "Антивандальное покрытие. Антивандальное покрытие. Антивандальное покрытие. Антивандальное покрытие. Антивандальное покрытие. Антивандальное покрытие.",
+    "photo": "https://zhanna.kz/upload/iblock/f11/IMG_20191209_182932.jpg",
+    "category": "furniture",
+    "rest": 5,
+    "price": "1050.32",
+    "created_at": "2022-10-03T14:33:49.979Z",
+    "changed_at": "2022-10-15T15:07:48.118Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 4,
+  "fields": {
+    "product": "Холодильник",
+    "description": "Класс энергопотребления А+",
+    "photo": "https://www.lg.com/ru/images/refrigerators/md05843209/gallery/medium15.jpg",
+    "category": "other",
+    "rest": 2,
+    "price": "1976.50",
+    "created_at": "2022-10-03T14:38:37.627Z",
+    "changed_at": "2022-10-03T14:38:37.627Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 5,
+  "fields": {
+    "product": "Acer Nitro",
+    "description": "Оптимальный вариант цены и качества",
+    "photo": "https://www.mechta.kz/images/product/4951/17000001175_1.jpg",
+    "category": "notebooks",
+    "rest": 7,
+    "price": "756.23",
+    "created_at": "2022-10-03T14:42:42.701Z",
+    "changed_at": "2022-10-03T14:42:42.702Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 6,
+  "fields": {
+    "product": "Плюшевый мишка",
+    "description": "Мягкий приятный подарок",
+    "photo": "https://ae04.alicdn.com/kf/Hf1096502ecd04f16a7021c10f0b86819p/-.jpg",
+    "category": "toys",
+    "rest": 23,
+    "price": "53.12",
+    "created_at": "2022-10-03T14:44:55.805Z",
+    "changed_at": "2022-10-03T14:44:55.805Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 21,
+  "fields": {
+    "product": "Потапыч",
+    "description": "То что надо для детей",
+    "photo": "https://ae04.alicdn.com/kf/Hf1096502ecd04f16a7021c10f0b86819p/-.jpg",
+    "category": "toys",
+    "rest": 0,
+    "price": "53.00",
+    "created_at": "2022-10-03T14:44:55.805Z",
+    "changed_at": "2022-10-03T14:44:55.805Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 22,
+  "fields": {
+    "product": "Столешница",
+    "description": "Каменная столешница",
+    "photo": "https://rumebel.ru/upload/medialibrary/740/74012fc948265ffd404fc1fb437df2e4.jpg",
+    "category": "furniture",
+    "rest": 5,
+    "price": "683.36",
+    "created_at": "2022-10-03T18:09:23.235Z",
+    "changed_at": "2022-10-03T18:09:23.235Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 26,
+  "fields": {
+    "product": "Плюшевый мишка",
+    "description": "Мягкий приятный подарок",
+    "photo": "https://ae04.alicdn.com/kf/Hf1096502ecd04f16a7021c10f0b86819p/-.jpg",
+    "category": "toys",
+    "rest": 23,
+    "price": "53.00",
+    "created_at": "2022-10-03T14:44:55.805Z",
+    "changed_at": "2022-10-03T14:44:55.805Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 27,
+  "fields": {
+    "product": "Плюшевый мишка",
+    "description": "Мягкий приятный подарок",
+    "photo": "https://ae04.alicdn.com/kf/Hf1096502ecd04f16a7021c10f0b86819p/-.jpg",
+    "category": "toys",
+    "rest": 23,
+    "price": "53.00",
+    "created_at": "2022-10-03T14:44:55.805Z",
+    "changed_at": "2022-10-03T14:44:55.805Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 28,
+  "fields": {
+    "product": "Плюшевый мишка",
+    "description": "Мягкий приятный подарок",
+    "photo": "https://ae04.alicdn.com/kf/Hf1096502ecd04f16a7021c10f0b86819p/-.jpg",
+    "category": "toys",
+    "rest": 23,
+    "price": "53.00",
+    "created_at": "2022-10-03T14:44:55.805Z",
+    "changed_at": "2022-10-03T14:44:55.805Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 29,
+  "fields": {
+    "product": "Плюшевый мишка",
+    "description": "Мягкий приятный подарок",
+    "photo": "https://ae04.alicdn.com/kf/Hf1096502ecd04f16a7021c10f0b86819p/-.jpg",
+    "category": "toys",
+    "rest": 23,
+    "price": "53.00",
+    "created_at": "2022-10-03T14:44:55.805Z",
+    "changed_at": "2022-10-03T14:44:55.805Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 30,
+  "fields": {
+    "product": "Плюшевый мишка",
+    "description": "Мягкий приятный подарок",
+    "photo": "https://ae04.alicdn.com/kf/Hf1096502ecd04f16a7021c10f0b86819p/-.jpg",
+    "category": "toys",
+    "rest": 23,
+    "price": "53.00",
+    "created_at": "2022-10-03T14:44:55.805Z",
+    "changed_at": "2022-10-03T14:44:55.805Z"
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 18,
+  "fields": {
+    "name": "Галым",
+    "phone": "777",
+    "address": "Аксай",
+    "created_at": "2022-10-17T19:37:29.037Z",
+    "products": [
+      3
+    ]
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 19,
+  "fields": {
+    "name": "Rashid",
+    "phone": "702",
+    "address": "Аксай",
+    "created_at": "2022-10-17T19:38:55.285Z",
+    "products": [
+      2,
+      22
+    ]
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 20,
+  "fields": {
+    "name": "Джугашвили",
+    "phone": "705",
+    "address": "Грузия",
+    "created_at": "2022-10-17T21:06:38.397Z",
+    "products": [
+      3,
+      4,
+      5
+    ]
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 21,
+  "fields": {
+    "name": "Ali",
+    "phone": "707",
+    "address": "Аксай",
+    "created_at": "2022-10-18T09:47:29.857Z",
+    "products": [
+      2,
+      3,
+      4,
+      6,
+      22
+    ]
+  }
+},
+{
+  "model": "shop.order",
+  "pk": 22,
+  "fields": {
+    "name": "Елена",
+    "phone": "701",
+    "address": "Карасай",
+    "created_at": "2022-10-18T09:49:40.916Z",
+    "products": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      22,
+      27,
+      28,
+      29
+    ]
+  }
+},
+{
+  "model": "shop.orderproductamount",
+  "pk": 1,
+  "fields": {
+    "order": 18,
+    "product": 3,
+    "order_amount": 1
+  }
+},
+{
+  "model": "shop.orderproductamount",
+  "pk": 2,
+  "fields": {
+    "order": 19,
+    "product": 22,
+    "order_amount": 2
+  }
+},
+{
+  "model": "shop.orderproductamount",
+  "pk": 3,
+  "fields": {
+    "order": 19,
+    "product": 2,
+    "order_amount": 1
+  }
+},
+{
+  "model": "shop.orderproductamount",
+  "pk": 4,
+  "fields": {
+    "order": 20,
+    "product": 3,
+    "order_amount": 1
+  }
+},
+{
+  "model": "shop.orderproductamount",
+  "pk": 5,
+  "fields": {
+    "order": 20,
+    "product": 4,
+    "order_amount": 1
+  }
+},
+{
+  "model": "shop.orderproductamount",
+  "pk": 6,
+  "fields": {
+    "order": 20,
+    "product": 5,
+    "order_amount": 1
+  }
+},
+{
+  "model": "shop.orderproductamount",
+  "pk": 7,
+  "fields": {
+    "order": 21,
+    "product": 4,
+    "order_amount": 1
+  }
+},
+{
+  "model": "shop.orderproductamount",
+  "pk": 8,
+  "fields": {
+    "order": 21,
+    "product": 6,
+    "order_amount": 1
+  }
+},
+{
+  "model": "shop.orderproductamount",
+  "pk": 9,
+  "fields": {
+    "order": 21,
+    "product": 3,
+    "order_amount": 2
+  }
+},
+{
+  "model": "shop.orderproductamount",
+  "pk": 10,
+  "fields": {
+    "order": 21,
+    "product": 22,
+    "order_amount": 2
+  }
+},
+{
+  "model": "shop.orderproductamount",
+  "pk": 11,
+  "fields": {
+    "order": 21,
+    "product": 2,
+    "order_amount": 1
+  }
+},
+{
+  "model": "shop.orderproductamount",
+  "pk": 12,
+  "fields": {
+    "order": 22,
+    "product": 3,
+    "order_amount": 1
+  }
+},
+{
+  "model": "shop.orderproductamount",
+  "pk": 13,
+  "fields": {
+    "order": 22,
+    "product": 22,
+    "order_amount": 2
+  }
+},
+{
+  "model": "shop.orderproductamount",
+  "pk": 14,
+  "fields": {
+    "order": 22,
+    "product": 2,
+    "order_amount": 4
+  }
+},
+{
+  "model": "shop.orderproductamount",
+  "pk": 15,
+  "fields": {
+    "order": 22,
+    "product": 5,
+    "order_amount": 2
+  }
+},
+{
+  "model": "shop.orderproductamount",
+  "pk": 16,
+  "fields": {
+    "order": 22,
+    "product": 4,
+    "order_amount": 1
+  }
+},
+{
+  "model": "shop.orderproductamount",
+  "pk": 17,
+  "fields": {
+    "order": 22,
+    "product": 6,
+    "order_amount": 1
+  }
+},
+{
+  "model": "shop.orderproductamount",
+  "pk": 18,
+  "fields": {
+    "order": 22,
+    "product": 27,
+    "order_amount": 1
+  }
+},
+{
+  "model": "shop.orderproductamount",
+  "pk": 19,
+  "fields": {
+    "order": 22,
+    "product": 29,
+    "order_amount": 1
+  }
+},
+{
+  "model": "shop.orderproductamount",
+  "pk": 20,
+  "fields": {
+    "order": 22,
+    "product": 28,
+    "order_amount": 1
+  }
+}
+]

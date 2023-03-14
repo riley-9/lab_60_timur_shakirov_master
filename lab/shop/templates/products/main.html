@@ -1,0 +1,81 @@
+{% extends 'products/../base.html' %}
+
+{% block menu %}
+    <li class="nav-item pt-3">
+        <div class="dropdown">
+            <button class="btn aqua dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                Продукты по категориям
+            </button>
+            <ul class="dropdown-menu pt-0 pb-0 aqua">
+                {% for category in categories %}
+                    <li>
+                        <a class="dropdown-item aqua rounded"
+                           href="{% url 'by_category' category.0 %}">{{ category.1 }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </li>
+    <li class="nav-item ml-3" style="width: 320px;">
+            <a class="nav-link text-warning text-right pt-3" href="{% url 'cart' %}">
+                <i class="bi bi-cart4 fs-3"></i>
+            </a>
+    </li>
+{% endblock %}
+
+{% block content %}
+
+    <h3 class="txt-color pt-3 pb-3">Магазин</h3>
+    {% if key %}
+        <h3 class="txt-color pt-3 pb-3">{{ category.get_category_display }}</h3>
+    {% endif %}
+
+    {% include 'partial/search.html' %}
+
+    {% if products %}
+        <div class="d-flex mb-3">
+            <div class="d-flex justify-content-around container flex-wrap">
+                {% for product in products %}
+                    <div class="d-flex mt-4" style="width: 47%; height: 230px; font-size: 14px">
+                        <div class="card w-50">
+                            <img class="rounded" src='{{ product.photo }}' style="height: 230px;">
+                        </div>
+                        <div class="card w-50 bg-light">
+                            <div class="rounded aqua">
+                                <h5 class="card-title mt-1 ml-2 fw-bold"
+                                    style="font-size: 18px;">{{ product.product }}</h5>
+                            </div>
+                            <p style="font-size: 16px;"
+                               class="card-text ml-2 h-25">{{ product.get_category_display }}</p>
+                            <h3 class="card-text ml-2 fw-bold h-25" style="font-size: 21px">${{ product.price }}</h3>
+                            <div class="d-flex justify-content-around">
+                                <div>
+                                    <a href="{% url 'product' product.pk %}"
+                                       class="btn aqua mt-3 mb-2 ml-2">
+                                        Подробнее
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="{% url 'add_to_cart' product.pk %}"
+                                       class="btn aqua mt-3 mb-2 ml-2">
+                                        В корзину
+                                    </a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% if is_paginated %}
+            {% include 'partial/pagination.html' %}
+        {% endif %}
+
+    {% else %}
+        <p class="mt-5 ml-3 fw-bold">Список продуктов пуст</p>
+    {% endif %}
+
+{% endblock %}

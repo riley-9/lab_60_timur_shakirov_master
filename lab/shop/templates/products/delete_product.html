@@ -1,0 +1,51 @@
+{% extends 'products/../base.html' %}
+
+{% block content %}
+
+    <h3 class="txt-color pt-3 pb-3">Удаление товара {{ product.pk }}</h3>
+
+    {% if product %}
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th scope="col">Товар</th>
+                <th scope="col">Цена</th>
+                <th scope="col">Описание</th>
+                <th scope="col">Категория</th>
+                <th scope="col">Остаток</th>
+                <th scope="col"></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="col-3 text-break">
+                    {{ product.product | linebreaks }}
+                </td>
+                <td class="col-3 text-break">
+                    {{ product.price }}
+                </td>
+                <td class="col-6 text-break">
+                    {{ product.description | linebreaks }}
+                </td>
+                <td class="col-3 text-break">
+                    {{ product.get_category_display }}
+                </td>
+                <td class="col-3 text-break">
+                    {{ product.rest }} ед.
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+        <h1 class="text-center" style="font-size: 21px;">Вы точно хотите удалить заметку?</h1>
+        <form method="POST" action="{% url "confirm_delete_product" product.pk %}" class="text-center">
+            {% csrf_token %}
+            <input type="submit" value="Удалить" class="btn btn-danger mt-2 ml-3 mb-3">
+            <a class="btn btn-primary mt-2 ml-3 mb-3" href="{% url "product" product.pk %}">Нет</a>
+        </form>
+
+    {% else %}
+        <p class="mt-5 ml-3 fw-bold">Запись не найдена</p>
+    {% endif %}
+{% endblock %}
+

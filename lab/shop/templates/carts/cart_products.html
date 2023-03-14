@@ -1,0 +1,52 @@
+{% extends 'products/../base.html' %}
+{% load mathfilters %}
+
+{% block content %}
+
+    <h3 class="txt-color pt-3 pb-3">Корзина</h3>
+
+    {% if cart %}
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th scope="col">Товар</th>
+                    <th scope="col">Цена</th>
+                    <th scope="col">Количество</th>
+                    <th scope="col">Сумма</th>
+                    <th scope="col"></th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for product in cart %}
+                    <tr>
+                        <td class="col-4 text-break">
+                            <a class="list-unstyled text-dark" href="{% url 'product' product.product.pk %}">
+                                {{ product.product.product }}
+                            </a>
+                        </td>
+                        <td class="col-2">{{ product.product.price }}</td>
+                        <td class="col-2">{{ product.amount }}</td>
+                        <td class="col-3"><b>{{ product.product.price|mul:product.amount }}</b></td>
+                        <td class="col-1"><a class="btn btn-danger"
+                                             href="{% url 'delete_cart_product' product.pk %}">Удалить</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+                <tr>
+                    <td><b>Итого</b></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <b>{{ total }}</b>
+                    </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            {% else %}
+            <p class="mt-5 ml-3 fw-bold">Корзина пуста</p>
+    {% endif %}
+
+    {% include 'partial/../orders/add_order.html' %}
+
+{% endblock %}
