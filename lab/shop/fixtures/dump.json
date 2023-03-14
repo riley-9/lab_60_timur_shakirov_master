@@ -1,0 +1,1111 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-03-03T16:23:39.246Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "New",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-03-03T16:23:56.303Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "In Progress",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-03-03T16:24:07.286Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Done",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-03-03T16:24:31.397Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Task",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-03-03T16:24:34.575Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Bug",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-03-03T16:24:37.055Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Enhancement",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-03-03T16:25:07.386Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Заголовок: Task_1, Статус: New, Тип: Task, Дата Обновления: 2023-03-03 16:25:07.371093+00:00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-03-03T16:25:26.395Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Заголовок: Task_2, Статус: In Progress, Тип: Bug, Дата Обновления: 2023-03-03 16:25:26.378443+00:00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-03-03T16:25:42.851Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Заголовок: Task_3, Статус: Done, Тип: Enhancement, Дата Обновления: 2023-03-03 16:25:42.836972+00:00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-03-14T10:18:57.961Z",
+    "user": 2,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "User_1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-03-14T11:16:23.648Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Продукт: Lenovo s540  |  Категория: Ноутбуки  |  Стоимость: 23423  |  ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-03-14T11:17:38.095Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Продукт: GAMEMAX  |  Категория: Компьютеры  |  Стоимость: 20000  |  ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-03-14T11:19:04.449Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Продукт: Pixel 6 PRO  |  Категория: Мобильные телефоны  |  Стоимость: 55555  |  ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-03-14T11:20:27.004Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Продукт: Iphone 14 PRO MAX  |  Категория: Мобильные телефоны  |  Стоимость: 33333  |  ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-03-14T11:36:28.315Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "Продукт: Хаги Вагги  |  Категория: Игрушки  |  Стоимость: 10  |  ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-03-14T11:37:17.952Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "Продукт: Кисси Мисси  |  Категория: Игрушки  |  Стоимость: 300  |  ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-03-14T11:38:14.052Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "Продукт: Соник  |  Категория: Игрушки  |  Стоимость: 30  |  ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-03-14T11:39:04.590Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Продукт: Диван  |  Категория: Мебель  |  Стоимость: 666  |  ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-03-14T11:39:49.174Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "Продукт: Кресло  |  Категория: Мебель  |  Стоимость: 55  |  ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-03-14T11:40:54.415Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "Продукт: Витамины  |  Категория: Разное  |  Стоимость: 88  |  ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-03-14T11:42:14.304Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "11",
+    "object_repr": "Продукт: Соул  |  Категория: Разное  |  Стоимость: 1  |  ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-03-14T11:43:28.564Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "12",
+    "object_repr": "Продукт: Impacto GLACIER  |  Категория: Компьютеры  |  Стоимость: 999  |  ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-03-14T12:17:48.824Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "Продукт: Кресло  |  Категория: Мебель  |  Стоимость: 55.00  |  ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Задача",
+    "content_type": 7,
+    "codename": "add_task"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Задача",
+    "content_type": 7,
+    "codename": "change_task"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Задача",
+    "content_type": 7,
+    "codename": "delete_task"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Задача",
+    "content_type": 7,
+    "codename": "view_task"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Статус",
+    "content_type": 8,
+    "codename": "add_state"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Статус",
+    "content_type": 8,
+    "codename": "change_state"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Статус",
+    "content_type": 8,
+    "codename": "delete_state"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Статус",
+    "content_type": 8,
+    "codename": "view_state"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add Тип",
+    "content_type": 9,
+    "codename": "add_type"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change Тип",
+    "content_type": 9,
+    "codename": "change_type"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete Тип",
+    "content_type": 9,
+    "codename": "delete_type"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view Тип",
+    "content_type": 9,
+    "codename": "view_type"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add Продукт",
+    "content_type": 10,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change Продукт",
+    "content_type": 10,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete Продукт",
+    "content_type": 10,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view Продукт",
+    "content_type": 10,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add Корзина",
+    "content_type": 11,
+    "codename": "add_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change Корзина",
+    "content_type": 11,
+    "codename": "change_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete Корзина",
+    "content_type": 11,
+    "codename": "delete_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view Корзина",
+    "content_type": 11,
+    "codename": "view_cart"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add Заказ",
+    "content_type": 12,
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change Заказ",
+    "content_type": 12,
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete Заказ",
+    "content_type": 12,
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view Заказ",
+    "content_type": 12,
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add order product amount",
+    "content_type": 13,
+    "codename": "add_orderproductamount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change order product amount",
+    "content_type": 13,
+    "codename": "change_orderproductamount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete order product amount",
+    "content_type": 13,
+    "codename": "delete_orderproductamount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view order product amount",
+    "content_type": 13,
+    "codename": "view_orderproductamount"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$HFlSrCt6H4wLEqTkz68shW$hnxu5Dnagh76+xAi121TFhfDTlkUsBQoG/fUKCDLojg=",
+    "last_login": "2023-03-03T16:23:02.830Z",
+    "is_superuser": true,
+    "username": "user",
+    "first_name": "",
+    "last_name": "",
+    "email": "asdfasdf@asdf.asdf",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-03-03T16:22:51.597Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$M0Xf4f1Qkn5s5EyE1ZWjfz$ub9migpaTbODitlGPKQFLb3bIwj5OLWydGjMd6HvZ1A=",
+    "last_login": "2023-03-14T10:18:07.236Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "asdf@sdf.asdf",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-03-14T10:15:24.021Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$aMrXKcBLx4iSTAAVN6rlwF$1uDPdjQO6T7WTXMQyQyjLdC8S895oPYIA5WIC5LwdQE=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "User_1",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-14T10:18:57.807Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "webapp",
+    "model": "task"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "webapp",
+    "model": "state"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "webapp",
+    "model": "type"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "shop",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "shop",
+    "model": "cart"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "shop",
+    "model": "order"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "shop",
+    "model": "orderproductamount"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6yn6wmhx9efj9muhap9m8gahu75mlelj",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSHQUh4u3fsNZJgZpGogKe3K-O_apAvd3nPOfYkI21ri1nmJM4mzGMTpd0uAD647oDvUW5PY6rrMSe6KPGiX10b8vBzu30GBXr615xCsTQo9suGJlfIUQrasHJIJ4MhoVEPwmCEnT3lyOGrtNGrwVo3i_QHzUDgY:1pc1jL:PP88-bcV1ArjmMii2ZijfBN0kH1-EeRqvvftlLGlZV0",
+    "expire_date": "2023-03-28T10:18:07.240Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 1,
+  "fields": {
+    "product": "Lenovo s540",
+    "description": "Описание Леново",
+    "photo": "https://www.lenovo.com/medias/lenovo-ideapad-s540-14-intel-gallery-01.jpg?context=bWFzdGVyfHJvb3R8ODkyNTF8aW1hZ2UvanBlZ3xoNDEvaDRkLzE0NDA4OTkyODgyNzE4LmpwZ3w5YzFhZWNjNjY3MzIzMmQ5YzZlY2YwYWZiZDhkYjRkOWRiZWUxNTU5OTliNWI1ZWYzNjc5NGU0NWQxY2NmNDEw",
+    "category": "notebooks",
+    "rest": 3,
+    "price": "23423.00",
+    "created_at": "2023-03-14T11:16:23.645Z",
+    "changed_at": "2023-03-14T11:16:23.645Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 2,
+  "fields": {
+    "product": "GAMEMAX",
+    "description": "Корпус для ПК",
+    "photo": "https://static.shop.kz/upload/resize_cache/iblock/ba7/ou7tm4l6j923cyf6vl6xvm0gt3v0ga4m/450_450_1/164607_1.jpg",
+    "category": "computers",
+    "rest": 5,
+    "price": "20000.00",
+    "created_at": "2023-03-14T11:17:38.093Z",
+    "changed_at": "2023-03-14T11:17:38.094Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 3,
+  "fields": {
+    "product": "Pixel 6 PRO",
+    "description": "Смартфон от Google\r\nтехнология NFC: Да\r\nцвет: желтый\r\nтип экрана: OLED, HDR10+, Gorilla Glass Victus\r\nдиагональ: 6.7 дюйм\r\nразмер оперативной памяти: 12 ГБ\r\nпроцессор: 8-ядерный Google Tensor, Mali-G78\r\nобъем встроенной памяти: 128 ГБ\r\nемкость аккумулятора: 5000 мАч",
+    "photo": "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h84/h1f/47041401716766/google-pixel-6-pro-12-128gb-102810935-1.jpg",
+    "category": "mobile_phones",
+    "rest": 30,
+    "price": "55555.00",
+    "created_at": "2023-03-14T11:19:04.448Z",
+    "changed_at": "2023-03-14T11:19:04.448Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 4,
+  "fields": {
+    "product": "Iphone 14 PRO MAX",
+    "description": "технология NFC: Да\r\nцвет: фиолетовый\r\nтип экрана: OLED, Super Retina XDR display с возможностью постоянной работы\r\nдиагональ: 6.7 дюйм\r\nразмер оперативной памяти: 6 ГБ\r\nпроцессор: 6-ядерный Apple A16 Bionic\r\nобъем встроенной памяти: 256 ГБ\r\nемкость аккумулятора: 3095 мАч",
+    "photo": "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h00/h18/62948780834846/apple-iphone-14-pro-max-128gb-fioletovyj-106363342-1.jpg",
+    "category": "mobile_phones",
+    "rest": 2,
+    "price": "33333.00",
+    "created_at": "2023-03-14T11:20:27.002Z",
+    "changed_at": "2023-03-14T11:20:27.002Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 5,
+  "fields": {
+    "product": "Хаги Вагги",
+    "description": "тип: мягкая игрушка\r\nвысота: 100 см\r\nнаполнитель: синтепон\r\nсерия: прочее\r\nособенности: антистрессовая\r\nпол ребенка: универсальный\r\nцвет: синий\r\nосновной материал: искусственный мех",
+    "photo": "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/ha6/h11/52241428545566/flexx-magkaa-igruska-hagi-vagi-vysota-100-sm-sinij-105682673-1.jpg",
+    "category": "toys",
+    "rest": 100,
+    "price": "10.00",
+    "created_at": "2023-03-14T11:36:28.313Z",
+    "changed_at": "2023-03-14T11:36:28.313Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 6,
+  "fields": {
+    "product": "Кисси Мисси",
+    "description": "тип: мягкая игрушка\r\nвысота: 100 см\r\nнаполнитель: синтепон\r\nсерия: прочее\r\nособенности: антистрессовая, ,крепление на руку\r\nпол ребенка: универсальный\r\nцвет: розовый\r\nосновной материал: искусственный мех",
+    "photo": "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hab/h83/62929072422942/kisi-misi-magkaa-igruska-kisi-misi-vysota-100-sm-rozovyj-106706533-1.jpg",
+    "category": "toys",
+    "rest": 5,
+    "price": "300.00",
+    "created_at": "2023-03-14T11:37:17.951Z",
+    "changed_at": "2023-03-14T11:37:17.951Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 7,
+  "fields": {
+    "product": "Соник",
+    "description": "тип: мягкая игрушка\r\nвысота: 28 см\r\nнаполнитель: полиэстер\r\nпол ребенка: универсальный\r\nцвет: синий\r\nосновной материал: искусственный мех",
+    "photo": "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h13/h2a/52233226682398/magkaa-igruska-sonic-exe-super-sonik-ekze-28-sm-105677542-1.jpg",
+    "category": "toys",
+    "rest": 20,
+    "price": "30.00",
+    "created_at": "2023-03-14T11:38:14.050Z",
+    "changed_at": "2023-03-14T11:38:14.050Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 8,
+  "fields": {
+    "product": "Диван",
+    "description": "механизм трансформации: еврокнижка\r\nобивка: велюр\r\nвысота, см: 60\r\nширина, см: 284\r\nглубина, см: 140\r\nцвет: синий\r\nстрана: Казахстан",
+    "photo": "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h49/hce/50353683333150/arman-company-komfort-kvadrat-p36-seryj-102085936-1-Container.jpg",
+    "category": "furniture",
+    "rest": 6,
+    "price": "666.00",
+    "created_at": "2023-03-14T11:39:04.588Z",
+    "changed_at": "2023-03-14T11:39:04.588Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 9,
+  "fields": {
+    "product": "Кресло",
+    "description": "назначение: компьютерное кресло\r\nтип базы: крестовина с колесами\r\nматериал обивки: экокожа\r\nрегулировка: высота сиденья\r\nцвет: черный\r\nстрана: Казахстан",
+    "photo": "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hab/h62/47858889457694/zeta-mazor-2-cernyj-100593550-1-Container.jpg",
+    "category": "furniture",
+    "rest": 6,
+    "price": "55.00",
+    "created_at": "2023-03-14T11:39:49.172Z",
+    "changed_at": "2023-03-14T12:17:48.820Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 10,
+  "fields": {
+    "product": "Витамины",
+    "description": "объем (мл)/вес (г): 5\r\nформа выпуска: раствор\r\nтип: БАД\r\nназначение: для улучшения пищеварения\r\nдля кого: для детей\r\nрегистрационный статус: не является лекарственным средством\r\nобласть применения: пищеварение\r\nстрана производитель: Швеция",
+    "photo": "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h82/ha0/50104335958046/tupek-biogaa-probiotik-dla-detej-5ml-101334508-1-Container.jpg",
+    "category": "other",
+    "rest": 77,
+    "price": "88.00",
+    "created_at": "2023-03-14T11:40:54.414Z",
+    "changed_at": "2023-03-14T11:40:54.414Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 11,
+  "fields": {
+    "product": "Соул",
+    "description": "Врач подметил, что вес человека после смерти уменьшается на одинаковый показатель – 21 грамм. По мнению исследователя, это и была душа, покидающая тело. Результаты исследования были опубликованы в журнале «Американская медицина» и вызвали шквал критики.",
+    "photo": "https://s2.afisha.ru/mediastorage/0d/de/4ba2e67ce8174d479ae94271de0d.jpg",
+    "category": "other",
+    "rest": 1,
+    "price": "1.00",
+    "created_at": "2023-03-14T11:42:14.302Z",
+    "changed_at": "2023-03-14T11:42:14.302Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 12,
+  "fields": {
+    "product": "Impacto GLACIER",
+    "description": "установленная ОС: Win 10\r\nпроцессор: Intel Core i5-10400F\r\nразмер оперативной памяти: 16 Гб\r\nобъем SSD: 480 Гб\r\nвидеопроцессор: NVIDIA GeForce RTX 3050\r\nобъем HDD: 2000 Гб\r\nформ-фактор корпуса: Midi-Tower",
+    "photo": "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hd5/h73/49488952688670/impacto-glacier-pc-belyj-104191528-1.jpg",
+    "category": "computers",
+    "rest": 1,
+    "price": "999.00",
+    "created_at": "2023-03-14T11:43:28.561Z",
+    "changed_at": "2023-03-14T11:43:28.561Z"
+  }
+},
+{
+  "model": "shop.cart",
+  "pk": 1,
+  "fields": {
+    "product": 3,
+    "amount": 1
+  }
+}
+]
