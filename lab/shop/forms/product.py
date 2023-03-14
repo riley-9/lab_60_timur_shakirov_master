@@ -51,7 +51,7 @@ class ProductForm(forms.ModelForm):
         widget=widgets.Input(
             attrs={
                 'class': 'form-control',
-                'style': 'max-width: 400px;',
+                'style': 'max-width: 300px;',
             }
         ),
         min_value=0, error_messages={'min_value': 'Остаток не должен быть меньше 0'}
@@ -62,7 +62,7 @@ class ProductForm(forms.ModelForm):
         widget=widgets.Input(
             attrs={
                 'class': 'form-control',
-                'style': 'max-width: 400px;',
+                'style': 'max-width: 300px;',
             }
         ),
         min_value=1.00, error_messages={'min_value': 'Стоимость не должна быть меньше 1.00'},
