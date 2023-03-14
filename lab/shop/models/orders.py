@@ -6,7 +6,7 @@ class Order(models.Model):
         to='shop.Product',
         related_name='orders',
         blank=True,
-        )
+    )
     name = models.CharField(max_length=250, null=False, blank=False, verbose_name='Имя')
     phone = models.CharField(max_length=100, null=False, blank=False, verbose_name='Телефон')
     address = models.CharField(max_length=300, null=False, blank=False, verbose_name='Адрес')

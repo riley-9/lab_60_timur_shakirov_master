@@ -15,4 +15,3 @@ class OrderProductAmount(models.Model):
         verbose_name='Продукт'
     )
     order_amount = models.IntegerField(null=False, blank=False, verbose_name='Количество')
-
